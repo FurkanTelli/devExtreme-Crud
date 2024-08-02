@@ -1,0 +1,47 @@
+.dataPage {
+    margin: 5vh auto;
+}
+
+/* .dx-datagrid-rowsview .dx-row.dx-selection {
+    background-color: #cce5ff;
+    color: #004085;
+} */
+
+
+
+.dx-data-row :hover {
+    cursor: pointer;
+    background-color: rgb(228, 227, 227);
+    transition: 0.2s;
+}
+
+.dx-data-row :active {
+    cursor: pointer;
+    background-color: rgb(192, 190, 190);
+    transition: 0.2s;
+}
+
+
+.popup-content {
+    padding: 20px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.popup-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-button:hover {
+    background-color: #0056b3;
+}
+
+
